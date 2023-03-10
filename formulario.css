@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+
+    padding: 0;
+}
+#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:19%;
+    margin-right:19%;
+    color: rgb(124, 124, 181);
+}
+#subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:19%;
+    margin-right:19%;
+    color: rgb(124, 124, 181);
+    font-size: 25px;
+
+}
+
+fieldset{
+    border: 0;
+}
+body{
+    background-color:#1b1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color:rgb(56, 56, 146);
+    margin-left:14%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.campo{
+    gap: 0.5rem; 
+    color:rgb(56, 56, 146);
+    cursor: pointer;
+}
+#idade{
+    gap: 0.5rem; 
+    color:rgb(56, 56, 146);
+    cursor: pointer;
+}
+#Estado{
+    gap: 0.5rem; 
+    color:rgb(56, 56, 146);
+    cursor: pointer;
+}
+#Gênero{
+    gap: 1rem;
+    color:rgb(56, 56, 146);
+    cursor: pointer;
+} 
+.botao{
+    gap: 1rem;
+    font-size: 1,2em;
+    color:rgb(56, 56, 146);
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0,2em 0,6em;
+    box-shadow: 2px 2px 2px rgb(56, 56, 146);
+    text-shadow: 1px 1px 1px rgb(69, 69, 71); 
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.botao :hover {
+    background-color: rgb(76, 140, 140);
+    box-shadow: 2px 2px 2px rgb(56, 56, 146);
+    box-sizing: none;
+
+}
+#option{ font-size: 1,2em;
+    color:rgb(56, 56, 146);
+    border: 0;}
+
+    
