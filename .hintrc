@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
+    ],
+    "axe/text-alternatives": "off",
+    "axe/forms": "off"
+  }
+}

@@ -199,12 +199,19 @@ header{
 
   }
 
-.Desenho{
-    color: rgb(85, 22, 232);
-    font-size: 30px;
+#Login
+{
+    font-size: 20px;
     cursor: pointer;
     position: absolute;
     top: 2%;
+    width:70px;
+    border-radius: 10px;
+   padding: 0;
+  box-shadow: 2px 2px 2px 2px  #4b06ec;
+  box-sizing: border-box;
+  color: rgb(13, 14, 13);
+
 } 
 
 .pesquisar{
@@ -216,7 +223,7 @@ color: rgb(85, 22, 232);
 height: 40px;
 border-radius: 40px;
 padding: 10px;
-font-size: 30px;
+font-size: 20px;
 
 }
 
