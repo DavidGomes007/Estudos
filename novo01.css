@@ -168,7 +168,8 @@ header {
  .checkbox:checked + label:before {
    background: #131212;
  }
- ae{
+ .ae
+ {
    padding-left: 0.1rem;
  }
  
